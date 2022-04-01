@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #e5e5e5;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #e5e5e5;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar .nav {
+  background: none;
+  color: black;
+  font-size: 14px;
+  padding: 16px 24px;
+  font-size: 15px;
+}
+#sidebar .nav #dashboard {
+  background: none;
+  color: black;
+  font-size: 40px;
+  padding: 16px 24px;
+  font-size: 15px;
+}
+#sidebar .nav #item {
+  /* display: block; */
+  background: #fef8f1;
+  color: black;
+  font-size: 40px;
+  padding: 30px;
+  font-size: 15px;
+  border-left: 8px solid #f3a953;
+}
+
+#content .pet h3 {
+  margin-top: 13rem;
+  margin-left: 20rem;
+}
+#content .pet button {
+  margin-top: 25px;
+  margin-left: 25rem;
+  border: none;
+  padding: 9px;
+  width: 180px;
+  border-radius: 5px;
+  background-color: #f3a953;
+}
